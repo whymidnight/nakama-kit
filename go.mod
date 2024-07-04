@@ -1,12 +1,12 @@
-module github.com/doublemo/nakama-kit
+module github.com/whymidnight/nakama-kit
 
-go 1.22.0
+go 1.22.4
 
-replace github.com/doublemo/nakama-common => ../nakama-common
+replace github.com/whymidnight/nakama-common => ../nakama-common
 
 require (
-	github.com/doublemo/nakama-common v0.0.0-00010101000000-000000000000
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
+	github.com/whymidnight/nakama-common v0.0.0-00010101000000-000000000000
 	go.etcd.io/etcd v3.3.27+incompatible
 	go.etcd.io/etcd/client/v3 v3.5.14
 	go.uber.org/atomic v1.11.0
